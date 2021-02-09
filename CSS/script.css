@@ -27,7 +27,6 @@ nav{
     
 }
 
-
 .nav-links{
     display: flex;
     justify-content: space-around;
@@ -126,15 +125,13 @@ nav{
   width:100%;
   flex-wrap:wrap;
  }
-
-
-		
+	
 .imgcontainer img{
 max-width:100%;
 flex:100%;
 }
 
-body{background-color:whitesmoke }
+body{background-color:white }
 
 /* body for main page  */
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
@@ -148,27 +145,27 @@ html {
   font-size: 100%;
 }
 body {
-  background-color: #dbe2e9;
+  background-color: #FFFFFF;
 }
 img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
-section {
+/* section {
   min-height: 100vh;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 100px 0;
-}
+} */
 .container {
   background-color: white;
   width: 90%;
   max-width: 900px;
   margin: 0 auto;
-  box-shadow: 0px 0px 61px 7px #5e849c40;
+  /* box-shadow: 0px 0px 61px 7px #5e849c40; */
   padding: 50px 20px;
   border-radius: 20px;
 }
@@ -181,8 +178,6 @@ section {
   font-size: 40px;
   font-weight: 900;
   letter-spacing: -2px;
-
-  
 }
 
 input {
@@ -252,8 +247,6 @@ form ion-icon {
   }
   .header h1 {
     font-size: 50px;
-    
-    
   }
   .header input {
     font-size: 24px;
@@ -266,7 +259,7 @@ form ion-icon {
   }
 }
 
-/* end   */
+/* end */
 
 /* Footer Styles */
 
@@ -277,7 +270,7 @@ footer section {
   background-position: center;
   position: relative;
   color: rgb(255, 255, 255);
-  padding: 25px;
+  padding: 15px;
 }
 
 footer section h2 {
@@ -315,6 +308,7 @@ footer {
   background-size: cover;
   position: relative;
   text-align: center;
+  overflow: hidden;
 }
 
 .footer {
@@ -322,7 +316,7 @@ footer {
   flex-direction: row;
   padding: 25px;
   position: relative;
-  padding-bottom: 50px;
+  padding-bottom: 100px;
 }
 
 .footer h1 {
@@ -379,6 +373,6 @@ footer {
   padding: 9px;
 }
 
-/* End of Bottom Footer Styles
+/* End of Bottom Footer Styles */
 
 /* End of Footer Styles */
