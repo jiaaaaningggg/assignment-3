@@ -136,121 +136,6 @@ flex:100%;
 
 body{background-color:whitesmoke }
 
-/* Footer Styles */
-
-/* Upper Footer Section */
-
-footer section {
-    background-image: url('../Images/footer.png');
-    background-position: center;
-    position: relative;
-    color: rgb(255, 255, 255);
-    padding: 25px;
-}
-
-footer section h2 {
-    font-family: 'Raleway', sans-serif;
-    letter-spacing: 0.5em;
-    line-height: 3em;
-}
-
-footer section p {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1em;
-    line-height: 2.5em;
-    letter-spacing: 0.1em;
-}
-
-.footericons a {
-    color: rgb(255, 255, 255);
-    font-size: 2em;
-    margin: 10px;
-}
-
-.footericons a:hover, .footericons a:active {
-    opacity: 0.75;
-    transition: 0.75s;
-}
-
-/* End of Upper Footer Styles */
-
-/* Bottom Footer Styles */
-
-footer {
-    background-image: linear-gradient(rgba(26, 26, 26, 0.95), rgba(26, 26, 26, 0.95)), url('../Images/footer.jpeg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    text-align: center;
-}
-
-.footer {
-    display: flex;
-    flex-direction: row;
-    padding: 25px;
-    position: relative;
-    padding-bottom: 100px;
-}
-
-.footer h1 {
-    color: rgb(255, 204, 204);
-    font-family: 'Raleway', sans-serif;
-    font-weight: 100;
-    margin: 20px 0px;
-}
-
-.footer a {
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    font-family: 'Montserrat', sans-serif;
-    display: flex;
-    flex-direction: column;
-    line-height: 2em;
-}
-
-.footer a:hover, .footer a:active {
-    text-decoration: underline;
-}
-
-#portfolio, #blog, #credits, #subscribe {
-    margin: 0px auto;
-}
-
-/* Footer Form Styles */
-
-#subscribe input[type=email] {
-    padding: 9px;
-    border: 1px solid rgb(128, 128, 128);
-    font-family: 'Raleway', sans-serif;
-}
-
-#subscribe input[type=email]:hover, #subscribe input[type=email]:active {
-    border: 1px solid rgb(0, 0, 0);
-    transition: 0.25s;
-}
-
-#subscribe input[type=submit] {
-    background-color: rgb(255, 102, 0);
-    color: rgb(255, 255, 255);
-    padding: 10px;
-    border: none;
-    cursor: pointer;
-    font-family: 'Raleway', sans-serif;
-}
-
-#subscribe input[type=submit]:hover, #subscribe input[type=submit]:active {
-    background-color: rgb(255, 77, 77);
-    color: rgb(255, 255, 255);
-    transition: 0.25s;
-    border: 1px solid rgb(255, 255, 255);
-    padding: 9px;
-}
-
-/* End of Bottom Footer Styles
-
-/* End of Footer Styles */
-
 /* body for main page  */
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
 * {
@@ -382,3 +267,118 @@ form ion-icon {
 }
 
 /* end   */
+
+/* Footer Styles */
+
+/* Upper Footer Section */
+
+footer section {
+  background-image: url('../Images/footer.png');
+  background-position: center;
+  position: relative;
+  color: rgb(255, 255, 255);
+  padding: 25px;
+}
+
+footer section h2 {
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: 0.5em;
+  line-height: 3em;
+}
+
+footer section p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1em;
+  line-height: 2.5em;
+  letter-spacing: 0.1em;
+}
+
+.footericons a {
+  color: rgb(255, 255, 255);
+  font-size: 2em;
+  margin: 10px;
+}
+
+.footericons a:hover, .footericons a:active {
+  opacity: 0.75;
+  transition: 0.75s;
+}
+
+/* End of Upper Footer Styles */
+
+/* Bottom Footer Styles */
+
+footer {
+  background-image: linear-gradient(rgba(26, 26, 26, 0.95), rgba(26, 26, 26, 0.95)), url('../Images/footer.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  text-align: center;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  padding: 25px;
+  position: relative;
+  padding-bottom: 50px;
+}
+
+.footer h1 {
+  color: rgb(255, 204, 204);
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
+  margin: 20px 0px;
+}
+
+.footer a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  flex-direction: column;
+  line-height: 2em;
+}
+
+.footer a:hover, .footer a:active {
+  text-decoration: underline;
+}
+
+#portfolio, #blog, #credits, #subscribe {
+  margin: 0px auto;
+}
+
+/* Footer Form Styles */
+
+#subscribe input[type=email] {
+  padding: 9px;
+  border: 1px solid rgb(128, 128, 128);
+  font-family: 'Raleway', sans-serif;
+}
+
+#subscribe input[type=email]:hover, #subscribe input[type=email]:active {
+  border: 1px solid rgb(0, 0, 0);
+  transition: 0.25s;
+}
+
+#subscribe input[type=submit] {
+  background-color: rgb(255, 102, 0);
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  font-family: 'Raleway', sans-serif;
+}
+
+#subscribe input[type=submit]:hover, #subscribe input[type=submit]:active {
+  background-color: rgb(255, 77, 77);
+  color: rgb(255, 255, 255);
+  transition: 0.25s;
+  border: 1px solid rgb(255, 255, 255);
+  padding: 9px;
+}
+
+/* End of Bottom Footer Styles
+
+/* End of Footer Styles */
