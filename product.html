@@ -5,26 +5,25 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/script.css" />
-    <title>T&T | E-commerce Website</title>
+    <title>Nilara | E-commerce Website</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
 </head>
 
 <body>
-    <div class="header">
         <div class="container">
             <div class="navbar">
                 <div class="logo">
                     <a href="index.html">
-                        <img src="images/Logo.png" alt="" / width="125px">
-                    </a>
+                    <img src="images/main-logo.png" alt="" / width="125px">
+                </a>
                 </div>
                 <nav>
                     <ul id="MenuItems">
                         <li><a href="index.html">Home</a></li>
-                        <li><a href="product.html">Products</a></li>
+                        <li><a href="products.html">Products</a></li>
                         <li><a href="">About us</a></li>
-                        <li><a href="contactUs.html">Contacts</a></li>
+                        <li><a href="">Contacts</a></li>
                         <li><a href="account.html">Account</a></li>
                     </ul>
                 </nav>
@@ -34,49 +33,27 @@
                 </a>
                 <img src="images/menu.png" alt="" class="menu-icon" onclick="menutoggle()">
             </div>
-            <div class="row">
-                <div class="col-2">
-                    <h1>Change your Style, <br />Change your Story.</h1>
-                    <p>
-                        Clothes mean nothing until someone lives in them<br /> —Marc Jacobs
-                    </p>
-                    <a href="" class="btn">Explore Now &#8594;</a>
-                </div>
-                <div class="col-2">
-                    <img src="images/main.png" alt="" />
-                </div>
-            </div>
         </div>
-    </div>
+   
 
-    <div class="categories">
-        <div class="small-container">
-            <div class="row">
-                <div class="col-3">
-                    <img src="images/category1.png" alt="" />
-                </div>
-                <div class="col-3">
-                    <img src="images/category2.png" alt="" />
-                </div>
-                <div class="col-3">
-                    <img src="images/category3.png" alt="" />
-                </div>
-            </div>
-        </div>
-    </div>
 
     <div class="small-container">
-        <h2 class="title">Featured Products</h2>
+        <div class="row row-2">
+            <h2>All Products</h2>
+            <select>
+                <option>Default Sorting</option>
+                <option>Price Low to High</option>
+                <option>Price High to Low</option>
+                <option>By Popularity</option>
+                <option>By Rating</option>
+                <option>By Sale</option>
+            </select>
+        </div>
+
         <div class="row">
             <div class="col-4">
-                <a href="product-details.html">
-
-                    <img src="images/pro1-nike-3695.png" alt="" />
-                </a>
-                <a href="product-details.html">
-
-                    <h4>Cavaliers SweatShirt by Nike</h4>
-                </a>
+                <img src="images/acc 2.png" alt="" />
+                <h4>Handcraft Necklace</h4>
                 <div class="rating">
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
@@ -84,7 +61,7 @@
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star-o"></i>
                 </div>
-                <p>Rs.3695</p>
+                <p>SGD $100</p>
             </div>
             <div class="col-4">
                 <img src="images/pro2-Polo Ralph Lauren-12990.png" alt="" />
@@ -123,8 +100,6 @@
                 <p>Rs.1499</p>
             </div>
         </div>
-
-        <h2 class="title">Latest Products</h2>
         <div class="row">
             <div class="col-4">
                 <img src="images/pro5-calvinK-4199.png" alt="" />
@@ -178,7 +153,7 @@
         <div class="row">
             <div class="col-4">
                 <img src="images/pro9-dorothy perkins-1245.png" alt="" />
-                <h4>Dorothy Perkins Skirt</h4>
+                <h4>Dorothy Perkins Skirts</h4>
                 <div class="rating">
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
@@ -202,7 +177,7 @@
             </div>
             <div class="col-4">
                 <img src="images/pro11-AccessHer-39500.png" alt="" />
-                <h4>Access Her necklace</h4>
+                <h4>Access Her Necklace</h4>
                 <div class="rating">
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
@@ -225,106 +200,68 @@
                 <p>Rs.14296</p>
             </div>
         </div>
-    </div>
-    <div class="offer">
-        <div class="small-container">
-            <div class="row">
-                <div class="col-2">
-                    <img src="images/shopping.png" alt="" class="offer-img" />
+        <div class="row">
+            <div class="col-4">
+                <img src="images/pro13-lacoste-2550.png" alt="" />
+                <h4>Lacoste kids T-shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
                 </div>
-                <div class="col-2">
-                    <p>Exclusively Available on NILARA</p>
-                    <h1>Apple watch series 5</h1>
-                    <small>
-                        With a new Always-On Retina display, Apple Watch Series 5 is
-                        always there for you. To monitor your health, help you stay fit
-                        and keep you connected.
-                    </small>
-                    <a href="#" class="btn">Buy Now &#8594;</a>
+                <p>Rs.2550</p>
+            </div>
+            <div class="col-4">
+                <img src="images/pro14-The Light Lamp-21360.png" alt="" />
+                <h4>The Light Lamp</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
                 </div>
+                <p>Rs.21360</p>
+            </div>
+            <div class="col-4">
+                <img src="images/pro15-harmon kardon-14990.png" alt="" />
+                <h4>Harmon Kardon Headphones</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs.149900</p>
+            </div>
+            <div class="col-4">
+                <img src="images/pro16-steve madden - 8999.png" alt="" />
+                <h4>Steve Madden Heels</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs.8999</p>
             </div>
         </div>
+
+        <div class="page-btn">
+            <span>1</span>
+            <span>2</span>
+            <span>3</span>
+            <span>4</span>
+            <span>5</span>
+            <span>&#8594;</span>
+        </div>
+    </div>
     </div>
 
-    <div class="testimonial">
-        <div class="small-container">
-            <div class="row">
-                <div class="col-3">
-                    <i class="fa fa-quote-left"></i>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
-                        temporibus non sapiente nemo autem illo! Ea sunt corporis officia
-                        inventore.
-                    </p>
-                    <div class="rating">
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star-half-o"></i>
-                    </div>
-                    <img src="images/user-1.jpg" alt="">
-                    <h3>Nilay Hirpara</h3>
-                </div>
-                <div class="col-3">
-                    <i class="fa fa-quote-left"></i>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
-                        temporibus non sapiente nemo autem illo! Ea sunt corporis officia
-                        inventore.
-                    </p>
-                    <div class="rating">
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star-half-o"></i>
-                    </div>
-                    <img src="images/user-2.jpg" alt="">
-                    <h3>Pranav Badgal</h3>
-                </div>
-                <div class="col-3">
-                    <i class="fa fa-quote-left"></i>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
-                        temporibus non sapiente nemo autem illo! Ea sunt corporis officia
-                        inventore.
-                    </p>
-                    <div class="rating">
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star-half-o"></i>
-                    </div>
-                    <img src="images/user-3.jpg" alt="">
-                    <h3>Navnit Kumar</h3>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="brands">
-        <div class="small-container">
-            <div class="row">
-                <div class="col-5">
-                    <img src="images/logo-1.png" alt="">
-                </div>
-                <div class="col-5">
-                    <img src="images/logo-2.png" alt="">
-                </div>
-                <div class="col-5">
-                    <img src="images/logo-3.png" alt="">
-                </div>
-                <div class="col-5">
-                    <img src="images/logo-4.png" alt="">
-                </div>
-                <div class="col-5">
-                    <img src="images/logo-5.png" alt="">
-                </div>
-            </div>
-        </div>
-    </div>
 
 
     <div class="footer">
