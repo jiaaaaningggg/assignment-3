@@ -13,28 +13,26 @@
 //     } )
 // })
 
-var input = document.querySelector('.input_text');
-var main = document.querySelector('#name');
-var temp = document.querySelector('.temp');
+var button = document.querySelector('.button');
+var inputValue = document.querySelector('.inputValue');
+var names = document.querySelector('.names');
 var desc = document.querySelector('.desc');
-var clouds = document.querySelector('.clouds');
-var button= document.querySelector('.submit');
+var temp = document.querySelector('.temp');
 
+button.addEventListener('click', function(){
+  fetch('https://api.openweathermap.org/data/2.5/weather?q='+inputValue.value+'&APPID=881ae117be4c62c83309d37cca8427b1')
+  .then(response => response.json())
+  .then(data => {
+    var nameValue = data['name'];
+    var tempValue = data['main']['temp'];
+    var descValue = data['weather'][0]['description'];
+  
+    names.innerHTML = nameValue;
+    temp.innerHTML = tempValue;
+    desc.innerHTML = descValue;
+    console.log(descValue);
+  })
 
-button.addEventListener('click', function(name){
-    fetch('https://api.openweathermap.org/data/2.5/weather?q='+inputValue.value+'&APPID=881ae117be4c62c83309d37cca8427b1')
-.then(response => response.json())
-.then(data => {
-  var tempValue = data['main']['temp'];
-  var nameValue = data['name'];
-  var descValue = data['weather'][0]['description'];
-
-  main.innerHTML = nameValue;
-  desc.innerHTML = "Desc - "+descValue;
-  temp.innerHTML = "Temp - "+tempValue;
-  input.value ="";
-
-})
-
-.catch(err => alert("Wrong city name!"));
+  
+  .catch(err => alert("Wrong City Name! "))
 })

@@ -4,8 +4,10 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/script.css" />
-    <link rel="stylesheet" href="Javascript/script.js" />
+
+    <link rel="stylesheet" href="CSS/script.css" />
+    <script src="Javascript/script.js" defer></script>
+
     <title>T&T | E-commerce Website</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
@@ -17,7 +19,7 @@
             <div class="navbar">
                 <div class="logo">
                     <a href="index.html">
-                        <img src="images/Logo.png" alt="" / width="125px">
+                        <img src="images/Logo.png" alt="" width="125px">
                     </a>
                 </div>
                 <nav>
@@ -233,26 +235,21 @@
                 <div class="col-2">
                     <img src="images/shopping.png" alt="" class="offer-img" />
                 </div>
+
                 <div class = "weathermap">
                     <h1>Weather for Today</h1>
                     <div class = "input">
-                        <input 
-                            type="text" 
-                            class="input_text"
-                            placeholder="Enter your city name"
-                        />
-                        <input type = "submit" value = "Submit" class = "input_text">
+                        <input type="text" class="inputValue" placeholder="Enter a city">
+                        <input type = "submit" value = "Submit" class = "button">
                     </div>
 
-                    <div class = "container">
-                        <div class = "card">
-                            <h1 class = "name" id = "name"></h1>
-                            <p class="temp"></p>
-      <p class="clouds"></p>
-      <p class="desc"></p>
-                        </div>
+                    <div class = "display">
+                        <h1 class= "names"></h1>
+                        <h3 class = "desc"></h3>
+                        <p class = "temp"></p>
                     </div>
                 </div>
+
                 <div class="col-2">
                     <p>Exclusively Available on T&T</p>
                     <h1>SEASONAL series </h1>
@@ -383,9 +380,6 @@
             }
         }
     </script>
-
-
-
 </body>
 
 </html>
