@@ -5,6 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/script.css" />
+    <link rel="stylesheet" href="Javascript/script.js" />
     <title>T&T | E-commerce Website</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
@@ -23,7 +24,7 @@
                     <ul id="MenuItems">
                         <li><a href="index.html">Home</a></li>
                         <li><a href="product.html">Products</a></li>
-                        <li><a href="">About us</a></li>
+                        <li><a href="aboutus.html">About us</a></li>
                         <li><a href="contactUs.html">Contacts</a></li>
                         <li><a href="account.html">Account</a></li>
                     </ul>
@@ -53,13 +54,13 @@
         <div class="small-container">
             <div class="row">
                 <div class="col-3">
-                    <img src="images/category1.png" alt="" />
+                    <img src="images/shoes 1.png" alt="" />
                 </div>
                 <div class="col-3">
-                    <img src="images/category2.png" alt="" />
+                    <img src="images/shirt 1.png" alt="" />
                 </div>
                 <div class="col-3">
-                    <img src="images/category3.png" alt="" />
+                    <img src="images/acc 2.png" alt="" />
                 </div>
             </div>
         </div>
@@ -71,11 +72,11 @@
             <div class="col-4">
                 <a href="product-details.html">
 
-                    <img src="images/pro1-nike-3695.png" alt="" />
+                    <img src="images/shirt 2.png" alt="" />
                 </a>
                 <a href="product-details.html">
 
-                    <h4>Cavaliers SweatShirt by Nike</h4>
+                    <h4>floral shirt by Prada</h4>
                 </a>
                 <div class="rating">
                     <i class="fa fa-star"></i>
@@ -84,11 +85,11 @@
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star-o"></i>
                 </div>
-                <p>Rs.3695</p>
+                <p>SGD350</p>
             </div>
             <div class="col-4">
-                <img src="images/pro2-Polo Ralph Lauren-12990.png" alt="" />
-                <h4>Polo Ralph Lauren</h4>
+                <img src="images/acc 3.png" alt="" />
+                <h4>checkered scarf</h4>
                 <div class="rating">
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
@@ -96,11 +97,11 @@
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star-half-o"></i>
                 </div>
-                <p>Rs.12990</p>
+                <p>SGD50</p>
             </div>
             <div class="col-4">
-                <img src="images/pro3-allen solly - 2369.png" alt="" />
-                <h4>Allen Solly Shirt</h4>
+                <img src="images/shoes 3.png" alt="" />
+                <h4>pink low cut sneakers</h4>
                 <div class="rating">
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
@@ -108,10 +109,10 @@
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star-o"></i>
                 </div>
-                <p>Rs.2369</p>
+                <p>SGD249</p>
             </div>
             <div class="col-4">
-                <img src="images/pro4-h&m-1499.png" alt="" />
+                <img src="images/shirt 5.png" alt="" />
                 <h4>H&M SweatShirt</h4>
                 <div class="rating">
                     <i class="fa fa-star"></i>
@@ -120,7 +121,7 @@
                     <i class="fa fa-star-half-o"></i>
                     <i class="fa fa-star-o"></i>
                 </div>
-                <p>Rs.1499</p>
+                <p>SGD128</p>
             </div>
         </div>
 
@@ -232,14 +233,36 @@
                 <div class="col-2">
                     <img src="images/shopping.png" alt="" class="offer-img" />
                 </div>
+                <div class = "weathermap">
+                    <h1>Weather for Today</h1>
+                    <div class = "input">
+                        <input 
+                            type="text" 
+                            class="input_text"
+                            placeholder="Enter your city name"
+                        />
+                        <input type = "submit" value = "Submit" class = "input_text">
+                    </div>
+
+                    <div class = "container">
+                        <div class = "card">
+                            <h1 class = "name" id = "name"></h1>
+                            <p class="temp"></p>
+      <p class="clouds"></p>
+      <p class="desc"></p>
+                        </div>
+                    </div>
+                </div>
                 <div class="col-2">
-                    <p>Exclusively Available on NILARA</p>
-                    <h1>Apple watch series 5</h1>
+                    <p>Exclusively Available on T&T</p>
+                    <h1>SEASONAL series </h1>
                     <small>
-                        With a new Always-On Retina display, Apple Watch Series 5 is
-                        always there for you. To monitor your health, help you stay fit
-                        and keep you connected.
+                        T&T provides seasonal clothes based on the weather where you're at. we will provide warmth in the cold 
+                        and light in the dark.
                     </small>
+                    <p>
+
+                    </p>
                     <a href="#" class="btn">Buy Now &#8594;</a>
                 </div>
             </div>
@@ -252,53 +275,31 @@
                 <div class="col-3">
                     <i class="fa fa-quote-left"></i>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
-                        temporibus non sapiente nemo autem illo! Ea sunt corporis officia
-                        inventore.
+                        "Fashion is part of the daily air and it changes all the time, with all the events. 
+                        You can even see the approaching of a revolution in clothes. You can see and feel everything in clothes."
                     </p>
-                    <div class="rating">
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star-half-o"></i>
-                    </div>
-                    <img src="images/user-1.jpg" alt="">
-                    <h3>Nilay Hirpara</h3>
+                    <img src="images/diana vreeland.jpg" alt="">
+                    <h3>Diana Vreeland </h3>
                 </div>
                 <div class="col-3">
                     <i class="fa fa-quote-left"></i>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
-                        temporibus non sapiente nemo autem illo! Ea sunt corporis officia
-                        inventore.
+                        "Don't be into trends. Don't make fashion own you, but you decide what you are, 
+                        what you want to express by the way you dress and the way to live." 
                     </p>
-                    <div class="rating">
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star-half-o"></i>
-                    </div>
-                    <img src="images/user-2.jpg" alt="">
-                    <h3>Pranav Badgal</h3>
+                    
+                    <img src="images/gianni versace.jpg" alt="">
+                    <h3>Gianni Versace</h3>
                 </div>
                 <div class="col-3">
                     <i class="fa fa-quote-left"></i>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
-                        temporibus non sapiente nemo autem illo! Ea sunt corporis officia
-                        inventore.
+                        "What you wear is how you present yourself to the world, especially today, 
+                        when human contacts are so quick. Fashion is instant language."
                     </p>
-                    <div class="rating">
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star-half-o"></i>
-                    </div>
-                    <img src="images/user-3.jpg" alt="">
-                    <h3>Navnit Kumar</h3>
+                  
+                    <img src="images/Miuccia_Prada.jpg" alt="">
+                    <h3>Miuccia Prada</h3>
                 </div>
             </div>
         </div>
@@ -363,7 +364,7 @@
                 </div>
             </div>
             <hr>
-            <p class="copyright">Copyright &copy; 2020 - www.nilara.com</p>
+            <p class="copyright">Copyright &copy; 2021 - T&T </p>
         </div>
     </div>
 
