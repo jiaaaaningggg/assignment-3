@@ -28,11 +28,10 @@ button.addEventListener('click', function(){
     var descValue = data['weather'][0]['description'];
   
     names.innerHTML = nameValue;
-    temp.innerHTML = tempValue;
+    temp.innerHTML = (tempValue - 273).toFixed(2) + " Deg Celcius";
     desc.innerHTML = descValue;
     console.log(descValue);
   })
 
-  
   .catch(err => alert("Wrong City Name! "))
 })
