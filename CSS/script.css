@@ -14,6 +14,10 @@ body{
   padding: 20px;
 }
 
+.navbar span{
+  padding-left: 25px;
+}
+
 nav{
   flex: 1;
   text-align: right;
@@ -203,7 +207,11 @@ h4{
   transform: translateY(-7px);
 }
 
-.add-cart{
+
+.col-4 a{
+  color: blue;
+}
+/* .add-cart{
   position: absolute;
   right: 20px;
   top: 20px;
@@ -223,7 +231,7 @@ h4{
 .add-cart:hover {
   background-color: #f76b6a;
   transition: all ease 0.2s;
-}
+} */
 
 .col-4:hover .add-cart{
   display: flex;
