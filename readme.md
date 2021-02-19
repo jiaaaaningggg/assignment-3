@@ -1,5 +1,7 @@
 Teo Wei Jie and Tjong Jia Ning 
 
+Github Link: jiaaaaningggg.github.io/assignment-3
+
 OUR PROJECT'S NAME:
 T&T (formed by using the first letter of our surnames)
 T&T is a e-commerce website that aims to sell clothes that are perfect for the season. By checking the weather at the location you're at, we will recommend clothes that are suitable for you. T&T sells clothes, accessories and shoes perfect for the weather. 
