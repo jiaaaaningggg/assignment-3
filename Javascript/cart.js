@@ -169,7 +169,7 @@ let products =
 for (let i = 0; i<carts.length; i++){
     carts[i].addEventListener('click', () =>{
         cartNumber(products[i]);
-        totalCost(products[i].price)
+        totalCost(products[i])
     })
 }
 
@@ -228,6 +228,7 @@ function totalCost(products) {
     }
     localStorage.setItem('totalCost', products.price);
 }
+
 function displayCart(){
     let cartItems = localStorage.getItem("productsinCart");
     cartItems=JSON.parse(cartItems);
@@ -271,5 +272,6 @@ function displayCart(){
 
     }
 }
+
 onLoadCartNumbers();
 displayCart();
